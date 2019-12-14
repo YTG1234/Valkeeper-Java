@@ -1,5 +1,5 @@
 # Valkeeper-Java
-A library for string values in java.
+A library for storing values in java.
 _____
 How to add it to your project:
 1. Download the latest jar from the [Releases Page](https://github.com/YTG1234/Valkeeper-Java/releases).
