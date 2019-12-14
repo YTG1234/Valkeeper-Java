@@ -1,0 +1,6 @@
+-classpath '/Users/michal/IdeaProjects/Libraries/valkeeper/build/classes/java/main:/Users/michal/IdeaProjects/Libraries/valkeeper/build/resources/main'
+-d '/Users/michal/IdeaProjects/Libraries/valkeeper/build/docs/javadoc'
+-doctitle 'valkeeper 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'valkeeper 1.0-SNAPSHOT API'
+'/Users/michal/IdeaProjects/Libraries/valkeeper/src/main/java/com/ytg123/valkeeper/ValueKeeper.java'
