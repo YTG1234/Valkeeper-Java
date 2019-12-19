@@ -1,0 +1,6 @@
+-classpath '/Users/michal/Documents/GitHub/Valkeeper-Java/valkeeper-portable/build/classes/java/main:/Users/michal/Documents/GitHub/Valkeeper-Java/valkeeper-portable/build/resources/main'
+-d '/Users/michal/Documents/GitHub/Valkeeper-Java/valkeeper-portable/build/docs/javadoc'
+-doctitle 'valkeeper-portable 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'valkeeper-portable 1.0-SNAPSHOT API'
+'/Users/michal/Documents/GitHub/Valkeeper-Java/valkeeper-portable/src/main/java/com/ytg123/valkeeper_portable/ValueKeeper.java'
