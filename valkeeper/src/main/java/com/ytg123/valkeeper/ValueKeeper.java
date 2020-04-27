@@ -52,7 +52,7 @@ public abstract class ValueKeeper {
     public static <T> T get(String identifier) {
         boolean found = false;
         for (Value<T> val : values) {
-            if (val.getIdentifier() == identifier && !found) {
+            if (val.getIdentifier().equals(identifier) && !found) {
                 found = true;
                 return val.getValue();
             }
