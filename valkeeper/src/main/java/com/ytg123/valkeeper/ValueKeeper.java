@@ -29,7 +29,7 @@ public abstract class ValueKeeper {
     public static <T> void set(String identifier, T value) {
         boolean found = false;
         for (Value<T> val : values) {
-            if (val.getIdentifier() == identifier && !found) {
+            if (val.getIdentifier().equals(identifier) && !found) {
                 found = true;
                 val.setValue(value);
             }
