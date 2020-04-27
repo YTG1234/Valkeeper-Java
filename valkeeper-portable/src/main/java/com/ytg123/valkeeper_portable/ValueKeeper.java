@@ -29,7 +29,7 @@ public class ValueKeeper {
     public <T> void set(String identifier, T value) {
         boolean found = false;
         for (Value<T> val : values) {
-            if (val.getIdentifier() == identifier && !found) {
+            if (val.getIdentifier().equals(identifier) && !found) {
                 found = true;
                 val.setValue(value);
             }
@@ -52,7 +52,7 @@ public class ValueKeeper {
     public <T> T get(String identifier) {
         boolean found = false;
         for (Value<T> val : values) {
-            if (val.getIdentifier() == identifier && !found) {
+            if (val.getIdentifier().equals(identifier) && !found) {
                 found = true;
                 return val.getValue();
             }
